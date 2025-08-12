@@ -1,0 +1,12 @@
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-WTF==1.2.1
+Werkzeug==3.0.1
+Pillow==10.4.0
+python-dotenv==1.0.0
+
+# Production dependencies (optional - install separately if needed)
+# gunicorn==21.2.0  # Windows users: use waitress instead
+# psycopg2-binary==2.9.9  # Install separately if using PostgreSQL
+# redis==5.0.1  # For caching and sessions (optional)

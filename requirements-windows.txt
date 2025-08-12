@@ -1,0 +1,17 @@
+# Windows-compatible requirements for FemboyWorld
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-WTF==1.2.1
+Werkzeug==3.0.1
+Pillow==10.4.0
+python-dotenv==1.0.0
+
+# Windows production server (alternative to gunicorn)
+waitress==3.0.0
+
+# Optional: PostgreSQL support (install separately if needed)
+# psycopg2-binary==2.9.9
+
+# Optional: Redis for caching (install separately if needed)
+# redis==5.0.1
